@@ -1,0 +1,12 @@
+ï»¿county_name,agent_name,total_bags,total_expected,total_received,remaining_balance
+Machakos,"Elizabeth Kilui",12,21600,20700,900
+Machakos,"Jackson Wambua",12,21600,21600,0
+Machakos,"Faith Muli",11,19800,15450,4350
+Machakos,"Brian Mutuku",11,19800,18000,1800
+Machakos,"Paul Kimee",3,5400,3700,1700
+Meru,"Evans Murugu",12,21600,21600,0
+UasinGishu,"Mary Cheptoo",1,1800,1800,0
+Machakos,"County Total",49,88200,79450,8750
+Meru,"County Total",12,21600,21600,0
+UasinGishu,"County Total",1,1800,1800,0
+"Grand Total","All Counties",62,111600,102850,8750
