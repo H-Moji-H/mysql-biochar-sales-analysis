@@ -46,25 +46,63 @@ Be arranged in descending order based on the number of biochar bags sold.
 Include subtotals per county and a grand total.
 
 # Query
+The individual query to produce the table is stored in the agent_metrics.sql file and the overall query file namely project_queries.sql
 
-SELECT
-    c.county_name AS County,
-    a.agent_name AS Agent,
-    COUNT(b.biochar_id) AS Bags_Sold,
-    SUM(b.expected_revenue) AS Total_Revenue_Expected,
-    SUM(b.revenue_received) AS Total_Revenue_Received,
-    SUM(b.expected_revenue - b.revenue_received) AS Remaining_Balance
-FROM
-    biochar_sales b
-JOIN
-    agent_lookup a ON b.agent_id = a.agent_id
-JOIN
-    county_lookup c ON a.county_id = c.county_id
-GROUP BY
-    c.county_name, a.agent_name
-WITH ROLLUP
-ORDER BY
-    Bags_Sold DESC;
+WITH agent_metrics AS (
+    -- Individual agent metrics
+    SELECT 
+        county_lookup.ï»¿county_name,
+        agent_lookup.agent_name,
+        SUM(biochar_sales.biochar_bags) as total_bags,
+        SUM(biochar_sales.order_amount_total) as total_expected,
+        SUM(biochar_sales.paid_today) as total_received,
+        SUM(biochar_sales.order_amount_total - biochar_sales.paid_today) as remaining_balance
+    FROM biochar_sales 
+    JOIN agent_lookup ON biochar_sales.agent_id = agent_lookup.ï»¿agent_id
+    JOIN county_lookup ON county_lookup.county_id = agent_lookup.county_id
+    GROUP BY county_lookup.ï»¿county_name, agent_lookup.agent_name
+
+    UNION ALL
+    
+    -- County Subtotals
+    SELECT 
+        county_lookup.ï»¿county_name,
+        'County Total' as agent_name,
+        SUM(biochar_sales.biochar_bags) as total_bags,
+        SUM(biochar_sales.order_amount_total) as total_expected,
+        SUM(biochar_sales.paid_today) as total_received,
+        SUM(biochar_sales.order_amount_total - biochar_sales.paid_today) as remaining_balance
+    FROM biochar_sales 
+    JOIN agent_lookup ON biochar_sales.agent_id = agent_lookup.ï»¿agent_id
+    JOIN county_lookup ON county_lookup.county_id = agent_lookup.county_id
+    GROUP BY county_lookup.ï»¿county_name
+
+    UNION ALL
+    
+    -- Grand Total
+    SELECT 
+        'Grand Total' as ï»¿county_name,
+        'All Counties' as agent_name,
+        SUM(biochar_sales.biochar_bags) as total_bags,
+        SUM(biochar_sales.order_amount_total) as total_expected,
+        SUM(biochar_sales.paid_today) as total_received,
+        SUM(biochar_sales.order_amount_total - biochar_sales.paid_today) as remaining_balance
+    FROM biochar_sales
+)
+SELECT 
+    ï»¿county_name,
+    agent_name,
+    total_bags,
+    total_expected,
+    total_received,
+    remaining_balance
+FROM agent_metrics
+ORDER BY 
+    CASE WHEN ï»¿county_name = 'Grand Total' THEN 2
+         WHEN agent_name = 'County Total' THEN 1
+         ELSE 0 END,
+    ï»¿county_name,
+    total_bags DESC;
 
 ## Result Table
 The result table is contained in the agent_metrics_results.csv file
