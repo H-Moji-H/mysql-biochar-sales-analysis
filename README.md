@@ -72,21 +72,21 @@ ORDER BY
 
 # Insights from the Results
 
-Top Performing County:
+### Top Performing County:
 
 Machakos leads in sales with 49 bags sold, generating a total expected revenue of 88,200, out of which 79,450 has been received. However, it also has the highest remaining balance of 8,750.
 
-Agent Performance:
+### Agent Performance:
 
-Jackson Wambua and Evans Murugu both have no remaining balance, indicating full payments for their sales.
+1. Jackson Wambua and Evans Murugu both have no remaining balance, indicating full payments for their sales.
 
-Faith Muli has the highest remaining balance (4,350) among agents, highlighting a potential area for follow-up.
+2. Faith Muli has the highest remaining balance (4,350) among agents, highlighting a potential area for follow-up.
 
-Low Sales Counties:
+### Low Sales Counties:
 
 Uasin Gishu had the lowest activity, with only 1 bag sold and full payment received.
 
-Overall Revenue Collection:
+### Overall Revenue Collection:
 
 The project achieved a total revenue of 111,600, with 102,850 collected so far and a remaining balance of 8,750.
 
