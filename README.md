@@ -48,8 +48,10 @@ Include subtotals per county and a grand total.
 # Query
 The individual query to produce the table is stored in the agent_metrics.sql file and the overall query file namely project_queries.sql
 
-WITH agent_metrics AS (
-    -- Individual agent metrics
+    WITH agent_metrics AS (  
+
+    Individual agent metrics
+  
     SELECT 
         county_lookup.ï»¿county_name,
         agent_lookup.agent_name,
@@ -87,17 +89,20 @@ WITH agent_metrics AS (
         SUM(biochar_sales.order_amount_total) as total_expected,
         SUM(biochar_sales.paid_today) as total_received,
         SUM(biochar_sales.order_amount_total - biochar_sales.paid_today) as remaining_balance
-    FROM biochar_sales
-)
-SELECT 
+    FROM biochar_sales 
+    )
+    
+    SELECT 
+
     ï»¿county_name,
     agent_name,
     total_bags,
     total_expected,
     total_received,
     remaining_balance
-FROM agent_metrics
-ORDER BY 
+    
+    FROM agent_metrics
+    ORDER BY 
     CASE WHEN ï»¿county_name = 'Grand Total' THEN 2
          WHEN agent_name = 'County Total' THEN 1
          ELSE 0 END,
