@@ -50,7 +50,7 @@ The individual query to produce the table is stored in the agent_metrics.sql fil
 
     WITH agent_metrics AS (  
 
-    Individual agent metrics
+    -- Individual agent metrics
   
     SELECT 
         county_lookup.ï»¿county_name,
