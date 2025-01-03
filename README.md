@@ -67,7 +67,7 @@ ORDER BY
     Bags_Sold DESC;
 
 ## Result Table
-
+The result table is contained in the agent_metrics_results.csv file
 
 
 # Insights from the Results
