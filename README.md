@@ -25,7 +25,7 @@ The data from provided CSV files (County Lookup.csv, Agent Lookup.csv, and Bioch
 
 # Queries and Analysis
 
-Query Requirements
+ ### Query Requirements:
 
 The goal was to write a query that produces a single table containing the following information:
 
