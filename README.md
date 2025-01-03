@@ -92,5 +92,12 @@ The project achieved a total revenue of 111,600, with 102,850 collected so far a
 
 # Query and Results:
 
-The SQL queries required to create the schema, set it as the active schema, upload individual files into it, and generate the desired results are saved in the file named project_queries.sql.
+The SQL queries required to create the schema, set it as the active schema, upload individual files into it, and generate the desired results are saved in the file named project_queries.sql
 
+The result table is stored in the agent_metrics_results.csv file and includes the following metrics:
+
+1.Number of biochar bags sold per agent
+2.Total revenue expected per agent
+3.Total revenue received per agent
+4.Remaining balance per agent
+The data is categorized by county and sorted in descending order based on the number of biochar bags sold. Additionally, the table includes subtotals for each county and a final grand total for all data.
