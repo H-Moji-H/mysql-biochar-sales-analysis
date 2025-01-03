@@ -92,4 +92,5 @@ The project achieved a total revenue of 111,600, with 102,850 collected so far a
 
 # Query and Results:
 
-The SQL query used is saved as project_queries.sql.
+The SQL queries required to create the schema, set it as the active schema, upload individual files into it, and generate the desired results are saved in the file named project_queries.sql.
+
