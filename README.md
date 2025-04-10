@@ -4,7 +4,7 @@
 
 # Overview
 
-This project involves creating and querying a database named biochar_db in MySQL. The database is designed to manage biochar sales and includes three main tables: county_lookup, agent_lookup, and biochar_sales. Queries have been written to generate insights on sales performance and revenue metrics categorized by county and agent.
+This project involves creating and querying a database named biochar_db in MySQL. The database is designed to manage biochar sales and includes three main tables: county_lookup, agent_lookup, and biochar_sales.The data tables (CSV files) were imported into the db. The queries were written in SQL to generate insights on sales performance and revenue metrics categorized by county and agent.
 
 # Project Setup
 
