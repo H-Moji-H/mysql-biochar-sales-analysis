@@ -18,7 +18,7 @@ county_lookup - has all the counties where the product is sold
 
 agent_lookup - contains sales agent data
 
-biochar_sales - conatains th
+biochar_sales - conatains sales data
 
 Data Import:
 The data from provided CSV files (County Lookup.csv, Agent Lookup.csv, and Biochar Sales.csv) was imported into the respective tables using MySQL Workbench or CLI.
