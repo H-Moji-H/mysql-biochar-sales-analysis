@@ -16,9 +16,9 @@ Tables: The following tables were created in the database:
 
 county_lookup - has all the counties where the product is sold
 
-agent_lookup
+agent_lookup - contains sales agent data
 
-biochar_sales
+biochar_sales - conatains th
 
 Data Import:
 The data from provided CSV files (County Lookup.csv, Agent Lookup.csv, and Biochar Sales.csv) was imported into the respective tables using MySQL Workbench or CLI.
