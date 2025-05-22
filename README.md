@@ -20,7 +20,7 @@ agent_lookup - contains sales agent data
 
 biochar_sales - conatains sales data
 
-- Data Import:
+- *Data Import*:
 Data from the provided CSV files (County Lookup.csv, Agent Lookup.csv, and Biochar Sales.csv) was imported into the respective tables using MySQL Workbench and verified using the MySQL CLI.
 
 # Queries and Analysis
