@@ -14,7 +14,7 @@ Schema: A database named biochar_db was created in MySQL.
 
 Tables: The following tables were created in the database:
 
-county_lookup - has all the counties/regions where the product is sold
+-county_lookup - has all the counties/regions where the product is sold
 
 agent_lookup - contains sales agent data
 
