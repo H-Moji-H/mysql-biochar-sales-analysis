@@ -16,7 +16,7 @@ Tables: The following tables were created in the database:
 
 - county_lookup - has all the counties/regions where the product is sold
 
-agent_lookup - contains sales agent data
+- agent_lookup - contains sales agent data
 
 biochar_sales - conatains sales data
 
