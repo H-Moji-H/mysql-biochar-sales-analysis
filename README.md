@@ -10,7 +10,8 @@ This project involves creating and querying a database named biochar_db in MySQL
 
 ## Database Creation
 
-Schema: A database named biochar_db was created in MySQL.
+#### Schema: 
+A database named biochar_db was created in MySQL.
 
 Tables: The following tables were created in the database:
 
