@@ -41,11 +41,11 @@ The goal was to write a query that produces a single table containing the follow
 
 Additionally, the table should:
 
-Be categorized by county.
+i Be categorized by county.
 
-Be arranged in descending order based on the number of biochar bags sold.
+ii Be arranged in descending order based on the number of biochar bags sold.
 
-Include subtotals per county and a grand total.
+iii Include subtotals per county and a grand total.
 
 # Query
 The individual query to produce the table is stored in the agent_metrics.sql file and the overall query file namely project_queries.sql
