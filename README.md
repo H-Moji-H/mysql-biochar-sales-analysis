@@ -119,7 +119,7 @@ The result table is contained in the agent_metrics_results.csv file
 
 ### Top Performing County:
 
-Machakos leads in sales with 49 bags sold, generating a total expected revenue of 88,200, out of which 79,450 has been received. However, it also has the highest remaining balance of 8,750.
+Machakos county leads in sales with 49 bags sold, generating a total expected revenue of 88,200, out of which 79,450 has been received. However, it also has the highest remaining balance of 8,750.
 
 ### Agent Performance:
 
