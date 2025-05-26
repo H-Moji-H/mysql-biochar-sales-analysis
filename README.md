@@ -41,9 +41,9 @@ The goal was to write a query that produces a single table containing the follow
 
 Additionally, the table should:
 
-i Be categorized by county.
+i. Be categorized by county.
 
-ii Be arranged in descending order based on the number of biochar bags sold.
+ii. Be arranged in descending order based on the number of biochar bags sold.
 
 iii Include subtotals per county and a grand total.
 
