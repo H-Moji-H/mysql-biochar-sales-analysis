@@ -129,7 +129,7 @@ Machakos county leads in sales with 49 bags sold, generating a total expected re
 
 ### Low Sales Counties:
 
-Uasin Gishu had the lowest activity, with only 1 bag sold and full payment received.
+Uasin Gishu county had the lowest activity, with only 1 bag sold and full payment received.
 
 ### Overall Revenue Collection:
 
