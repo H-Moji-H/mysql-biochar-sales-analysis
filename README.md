@@ -45,7 +45,7 @@ i. Be categorized by county.
 
 ii. Be arranged in descending order based on the number of biochar bags sold.
 
-iii Include subtotals per county and a grand total.
+iii. Include subtotals per county and a grand total.
 
 # Query
 The individual query to produce the table is stored in the agent_metrics.sql file and the overall query file namely project_queries.sql
