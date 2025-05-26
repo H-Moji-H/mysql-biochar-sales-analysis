@@ -31,13 +31,13 @@ Data from the provided CSV files (County Lookup.csv, Agent Lookup.csv, and Bioch
 
 The goal was to write a query that produces a single table containing the following information:
 
-Number of biochar bags sold per agent
+1. Number of biochar bags sold per agent
 
-Total revenue expected per agent
+2. Total revenue expected per agent
 
-Total revenue received per agent
+3. Total revenue received per agent
 
-Remaining balance per agent
+4. Remaining balance per agent
 
 Additionally, the table should:
 
