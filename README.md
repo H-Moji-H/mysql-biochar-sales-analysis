@@ -125,7 +125,7 @@ Machakos county leads in sales with 49 bags sold, generating a total expected re
 
 1. Jackson Wambua and Evans Murugu both have no remaining balance, indicating full payments for their sales.
 
-2. Faith Muli has the highest remaining balance (4,350) among agents, highlighting a potential area for follow-up.
+2. Faith Muli has the highest remaining balance (4,350 shillings) among agents, highlighting a potential area for follow-up.
 
 ### Low Sales Counties:
 
