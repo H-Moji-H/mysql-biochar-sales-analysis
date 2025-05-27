@@ -119,7 +119,7 @@ The result table is contained in the agent_metrics_results.csv file
 
 ### Top Performing County:
 
-Machakos county leads in sales with 49 bags sold, generating a total expected revenue of 88,200 shillings, out of which 79,450 shillings has been received. However, it also has the highest remaining balance of 8,750.
+Machakos county leads in sales with 49 bags sold, generating a total expected revenue of 88,200 shillings, out of which 79,450 shillings has been received. However, it also has the highest remaining balance of 8,750 shillings.
 
 ### Agent Performance:
 
