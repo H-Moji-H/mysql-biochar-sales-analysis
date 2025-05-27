@@ -133,7 +133,7 @@ Uasin Gishu county had the lowest activity, with only 1 bag sold and full paymen
 
 ### Overall Revenue Collection:
 
-The project achieved a total revenue of 111,600, with 102,850 collected so far and a remaining balance of 8,750 shillings.
+The project achieved a total revenue of 111,600 shillings , with 102,850 shillings collected so far and a remaining balance of 8,750 shillings.
 
 # Query and Results:
 
