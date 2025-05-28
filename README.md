@@ -33,7 +33,7 @@ The goal was to write a query that produces a single table containing the follow
 
  i. Number of biochar bags sold per agent
 
- 2. Total revenue expected per agent
+ ii. Total revenue expected per agent
 
  3. Total revenue received per agent
 
