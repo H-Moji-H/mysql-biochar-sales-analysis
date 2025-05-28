@@ -35,7 +35,7 @@ The goal was to write a query that produces a single table containing the follow
 
  ii. Total revenue expected per agent
 
- 3. Total revenue received per agent
+ iii. Total revenue received per agent
 
  4. Remaining balance per agent
 
