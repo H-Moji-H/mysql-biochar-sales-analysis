@@ -37,7 +37,7 @@ The goal was to write a query that produces a single table containing the follow
 
  iii. Total revenue received per agent
 
- 4. Remaining balance per agent
+ iv. Remaining balance per agent
 
 Additionally, the table should:
 
