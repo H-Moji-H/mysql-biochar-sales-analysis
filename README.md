@@ -31,7 +31,7 @@ Data from the provided CSV files (County Lookup.csv, Agent Lookup.csv, and Bioch
 
 The goal was to write a query that produces a single table containing the following information:
 
- 1. Number of biochar bags sold per agent
+ i. Number of biochar bags sold per agent
 
  2. Total revenue expected per agent
 
